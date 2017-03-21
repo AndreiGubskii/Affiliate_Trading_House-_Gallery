@@ -1,1 +1,1 @@
-# Affiliate_Trading_House-_Gallery
+# Affiliate_Trading_House_Gallery
