@@ -2,6 +2,14 @@
 body{
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
+section{
+	color:#fff;
+}
+
+section p,li,a{
+	font-size: 18px;
+	font-weight: bold;
+}
 .container-color{
 	background-color: #7f7f7f;
 }
@@ -88,7 +96,7 @@ body{
 	color: black;
 }
 .title{
-	font-size: 18px;
+	font-size: 21px;
 	text-align: center;
 	display: block;
 	color: #fff;
@@ -97,17 +105,14 @@ body{
 }
 .title-wrap{
 	background: #656565;
+		margin-bottom: 20px;
 }
-
 .assortment .title{
 	color: #fff;
 	font-weight: bold;
 }
 .assortment-back{
-	background: url(../images/int_back.png) right center no-repeat;
-}
-.assortment .title{
-	font-size: 18px;
+	background: url(../images/int_back.png) right 0 no-repeat;
 }
 
 .assortment-box{	
@@ -120,9 +125,8 @@ body{
 	min-height: 140px;
 }
 .assortment-box p{
-	font-size: 18px;
 	color: black;
-	font-weight: bold;
+	font-size: 16px;
 }
 .wallpaper-icon{
 	background: url(../images/oboi_icon.svg) center 15px no-repeat,#fff;
@@ -172,10 +176,10 @@ body{
 .proffesional p{
 	margin-left: 65px;
 	margin-top: 20px;
-	font-size: 18px;
-	font-weight: bold;
+	color: black;
 }
 .gr-box{
+	padding: 10px;
 	background: rgb(254,254,254);
 	background: -moz-linear-gradient(left,  rgba(254,254,254,1) 1%, rgba(197,197,197,1) 100%);
 	background: -webkit-linear-gradient(left,  rgba(254,254,254,1) 1%,rgba(197,197,197,1) 100%);
@@ -184,8 +188,6 @@ body{
 }
 .proffesional .gr-box p{
 	color: #f25000;
-	font-size: 18px;
-	font-weight: bold;
 	padding: 0 20px;
 	margin: 0;
 }
@@ -200,19 +202,61 @@ body{
 .affiliate .title-wrap{
 	background: #f25000;
 }
+.footnote{
+	position: relative;
+}
+.footnote::after{
+	content: "";
+	display: block;
+	width: 40%;
+	border-bottom: 2px solid black;
+	position: absolute;
+	top:0;
+	left: 0;
+}
+.footnote p{
+	padding-top: 10px;
+	color: black;
+}
+.vip{
+	padding-top: 10px;
+}
+.vip img{
+	padding: 5px;
+	margin: 0 auto;
+}
+.vip p{
+	padding-left: 20px
+}
+.cheap{
+	margin: 18px 0;
+}
 .affiliate ul{
 	list-style-type: square;
 }
 .affiliate ul>li>span{
-	font-size: 12px;
+	font-size: 14px;
 }
-.vip{
-	margin-top: 5px;
-}
+
 .contact{
 	background: #cbcbcb;
+	color: black;
+}
+.contact p{
+	font-size: 20px;
+	text-align: center;
+}
+.contact a{
+	text-decoration: none;
+	color: inherit;
+	font-size: inherit;
 }
 .little-logo{
+	margin: 15px auto;
 	width: 30%;
+
+}
+.footer .title-wrap{
+	margin: 0;
 }
 
