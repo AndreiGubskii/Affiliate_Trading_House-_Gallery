@@ -1,36 +1,218 @@
-.red{
-	background: red;
-	width: 100%;
-}
-.green{
-	background: green;
-	width: 100%;
-}
-.yellow{
-	background: yellow;
-	width: 100%;
+
+body{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 .container-color{
-	background-color: grey;
+	background-color: #7f7f7f;
+}
+.back-white{
+	background-color: #fff;
 }
 .column{
 	box-sizing: border-box;
-	padding: 10px;
+	padding: 0 10px 15px;
 }
-
-.title{
-	font-size: 15px;
+/*Header*/
+.menu,
+.header{
+	font-family: 'Segoe UI';
+}
+.logo{
+	max-width: 320px;
+}
+.language-btn{
+	display: block;
+	background: url(../images/Hamburger-icon.svg) 0 0 no-repeat;
+	background-size: 30px;
+	margin: 15px 0 20px 25px;
+	padding: 0 0 0 40px;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 21px;
+}
+.language-panel-wrap{
+	display: none;
+}
+.language-btn:active,
+.language-btn:hover,
+.language-btn:focus{
+	color: #f25000;
+}
+.language-btn:active + .language-panel-wrap,
+.language-btn:hover + .language-panel-wrap,
+.language-panel-wrap:active,
+.language-panel-wrap:hover{
+	display: block;
+}
+.language-panel-wrap{
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.language-panel{
+	position: absolute;
+	left: 20px;
+	top: -20px;
+	background: #fff;
+	opacity: 0.8;
+	border: 1px solid black;
+	width: 80%;
+	height: auto;
+	z-index: 2;
+}
+.language-panel a{
+	display: block;
+	width: 100%;
+	padding: 10px 30px;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 21px;
+}
+.language-panel a:active,
+.language-panel a:hover,
+.language-panel a:focus{
+	color: #f25000;
+}
+.menu{
 	text-align: center;
 }
+.menu a{
+	text-decoration: none;
+	color: #e6e6e6;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+.menu a:hover{
+	color: black;
+}
+.title{
+	font-size: 18px;
+	text-align: center;
+	display: block;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.title-wrap{
+	background: #656565;
+}
 
+.assortment .title{
+	color: #fff;
+	font-weight: bold;
+}
+.assortment-back{
+	background: url(../images/int_back.png) right center no-repeat;
+}
 .assortment .title{
 	font-size: 18px;
 }
 
-.assortment-box{
-	background-color: #fff;
+.assortment-box{	
 	opacity: 0.7;
 	width: 100%;
-	height: 100px;
+	height: auto;
 	box-sizing: border-box;
+	padding: 95px 5px 10px 5px;
+	text-align: center;
+	min-height: 140px;
 }
+.assortment-box p{
+	font-size: 18px;
+	color: black;
+	font-weight: bold;
+}
+.wallpaper-icon{
+	background: url(../images/oboi_icon.svg) center 15px no-repeat,#fff;
+	background-size: 68px;
+}
+.photo-wallpaper-icon{
+	background: url(../images/photo_oboi_icon.svg) center 15px no-repeat,#fff;
+	background-size: 68px;
+}
+.ceramic-icon{
+	background: url(../images/ceramic_icon.svg) center 15px no-repeat,#fff;
+	background-size: 68px;
+}
+.paint-icon{
+	background: url(../images/paint_icon.svg) center 15px no-repeat,#fff;
+	background-size: 68px;
+}
+.fretwork-icon{
+	background: url(../images/lepnina_icon.svg) center 15px no-repeat,#fff;
+	background-size: 68px;
+}
+.light-icon{
+	background: url(../images/ligths_icon.svg) center 15px no-repeat,#fff;
+	background-size: 68px;
+}
+.curtains-icon{
+	background: url(../images/shtori_icon.svg) center 15px no-repeat,#fff;
+	background-size: 68px;
+}
+.other-icon{
+	background: #fff;
+	padding: 50px 5px 10px 5px;
+}
+.row-flex, .row-flex > div[class*='col-'] {  
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex:1 1 auto;
+}
+.row-flex-wrap {
+	-webkit-flex-flow: row wrap;
+	align-content: flex-start;
+	flex:0;
+}
+.proffesional p{
+	margin-left: 65px;
+	margin-top: 20px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.gr-box{
+	background: rgb(254,254,254);
+	background: -moz-linear-gradient(left,  rgba(254,254,254,1) 1%, rgba(197,197,197,1) 100%);
+	background: -webkit-linear-gradient(left,  rgba(254,254,254,1) 1%,rgba(197,197,197,1) 100%);
+	background: linear-gradient(to right,  rgba(254,254,254,1) 1%,rgba(197,197,197,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#c5c5c5',GradientType=1 );
+}
+.proffesional .gr-box p{
+	color: #f25000;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 0 20px;
+	margin: 0;
+}
+.border-bottom{
+	border-bottom: 3px solid #e6e6e6;
+}
+.border-top{
+	border-top: 3px solid #f25000;
+}
+.menu,
+.contact .title-wrap,
+.affiliate .title-wrap{
+	background: #f25000;
+}
+.affiliate ul{
+	list-style-type: square;
+}
+.affiliate ul>li>span{
+	font-size: 12px;
+}
+.vip{
+	margin-top: 5px;
+}
+.contact{
+	background: #cbcbcb;
+}
+.little-logo{
+	width: 30%;
+}
+
