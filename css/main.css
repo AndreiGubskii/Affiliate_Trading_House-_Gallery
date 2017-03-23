@@ -38,6 +38,7 @@ h1,h2{
 	color: black;
 	font-weight: bold;
 	font-size: 21px;
+	text-transform: uppercase;
 }
 .language-panel-wrap{
 	display: none;
@@ -70,6 +71,7 @@ h1,h2{
 	z-index: 2;
 }
 .language-panel a{
+	text-transform: uppercase;
 	display: block;
 	width: 100%;
 	padding: 10px 23px;
@@ -141,6 +143,10 @@ h1,h2{
 .ceramic-icon{
 	background: url(../images/ceramic_icon.svg) center 15px no-repeat,#fff;
 	background-size: 68px;
+}
+.ceramic-icon-kz{
+	background: url(../images/floor_icon.svg) center 15px no-repeat,#fff;
+	background-size: 130px;
 }
 .paint-icon{
 	background: url(../images/paint_icon.svg) center 15px no-repeat,#fff;
