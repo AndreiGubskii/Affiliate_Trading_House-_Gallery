@@ -5,10 +5,8 @@ body{
 section{
 	color:#fff;
 }
-
-section p,li,a{
-	font-size: 18px;
-	font-weight: bold;
+h2{
+	margin-top: 10px;
 }
 .container-color{
 	background-color: #7f7f7f;
@@ -18,15 +16,19 @@ section p,li,a{
 }
 .column{
 	box-sizing: border-box;
-	padding: 0 10px 15px;
+	padding: 0 5px 10px;
 }
 /*Header*/
 .menu,
 .header{
-	font-family: 'Segoe UI';
+	font-family: 'Segoe UI',"Helvetica Neue", Helvetica, sans-serif;;
+}
+.header{
+	margin-bottom: 8px;
 }
 .logo{
 	max-width: 320px;
+	width: 66%;
 }
 .language-btn{
 	display: block;
@@ -72,7 +74,7 @@ section p,li,a{
 .language-panel a{
 	display: block;
 	width: 100%;
-	padding: 10px 30px;
+	padding: 10px 23px;
 	text-decoration: none;
 	color: black;
 	font-weight: bold;
@@ -83,13 +85,13 @@ section p,li,a{
 .language-panel a:focus{
 	color: #f25000;
 }
-.menu{
-	text-align: center;
+.link-contact{
+	padding-left: 20px;
 }
 .menu a{
 	text-decoration: none;
 	color: #e6e6e6;
-	font-size: 22px;
+	font-size: 28px;
 	text-transform: uppercase;
 }
 .menu a:hover{
@@ -105,11 +107,11 @@ section p,li,a{
 }
 .title-wrap{
 	background: #656565;
-		margin-bottom: 20px;
+
 }
 .assortment .title{
 	color: #fff;
-	font-weight: bold;
+	margin: 18px 0 31px 0;
 }
 .assortment-back{
 	background: url(../images/int_back.png) right 0 no-repeat;
@@ -120,13 +122,15 @@ section p,li,a{
 	width: 100%;
 	height: auto;
 	box-sizing: border-box;
-	padding: 95px 5px 10px 5px;
+	padding: 95px 5px 0 5px;
 	text-align: center;
 	min-height: 140px;
 }
 .assortment-box p{
 	color: black;
-	font-size: 16px;
+	font-size: 20px;
+	line-height: 24px;
+
 }
 .wallpaper-icon{
 	background: url(../images/oboi_icon.svg) center 15px no-repeat,#fff;
@@ -174,9 +178,12 @@ section p,li,a{
 	flex:0;
 }
 .proffesional p{
-	margin-left: 65px;
+	margin-left: 108px;
 	margin-top: 20px;
 	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 22px;
 }
 .gr-box{
 	padding: 10px;
@@ -202,6 +209,13 @@ section p,li,a{
 .affiliate .title-wrap{
 	background: #f25000;
 }
+
+.affiliate p{
+	font-size: 22px;
+	line-height: 27px;
+	margin: 21px 0 27px 21px;
+}
+
 .footnote{
 	position: relative;
 }
@@ -222,28 +236,47 @@ section p,li,a{
 	padding-top: 10px;
 }
 .vip img{
-	padding: 5px;
+	padding: 6px 22px;
 	margin: 0 auto;
 }
 .vip p{
-	padding-left: 20px
+	margin: 5px;
 }
 .cheap{
 	margin: 18px 0;
 }
 .affiliate ul{
 	list-style-type: square;
+	list-style-type: square;
+	margin: -30px 0 0 4px;
+	font-size: 23px;
 }
 .affiliate ul>li>span{
-	font-size: 14px;
+	font-size: 18px;
 }
-
+.vip ul{
+	list-style-type: square;
+	list-style-type: square;
+	font-size: 23px;
+	margin: 0;
+}
+.price p{
+	font-size: 21px;
+	line-height: 24px;
+	padding: 15px 5px 0 5px;
+	text-align: center;
+}
+.price img{
+	width: 77%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
 .contact{
 	background: #cbcbcb;
 	color: black;
 }
 .contact p{
-	font-size: 20px;
+	font-size: 21px;
 	text-align: center;
 }
 .contact a{
@@ -254,6 +287,7 @@ section p,li,a{
 .little-logo{
 	margin: 15px auto;
 	width: 30%;
+	max-width: 200px;
 
 }
 .footer .title-wrap{
