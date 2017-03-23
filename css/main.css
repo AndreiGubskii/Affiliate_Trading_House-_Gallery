@@ -242,9 +242,7 @@ h2{
 .vip p{
 	margin: 5px;
 }
-.cheap{
-	margin: 18px 0;
-}
+
 .affiliate ul{
 	list-style-type: square;
 	list-style-type: square;
@@ -293,4 +291,8 @@ h2{
 .footer .title-wrap{
 	margin: 0;
 }
-
+@media screen and (min-width: 992px){
+	.cheap{
+		margin: 29px 0;
+	}
+}
