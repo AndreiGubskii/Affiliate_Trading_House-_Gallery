@@ -5,7 +5,7 @@ body{
 section{
 	color:#fff;
 }
-h2{
+h1,h2{
 	margin-top: 10px;
 }
 .container-color{
@@ -23,18 +23,16 @@ h2{
 .header{
 	font-family: 'Segoe UI',"Helvetica Neue", Helvetica, sans-serif;;
 }
-.header{
-	margin-bottom: 8px;
-}
+
 .logo{
 	max-width: 320px;
 	width: 66%;
 }
 .language-btn{
 	display: block;
-	background: url(../images/Hamburger-icon.svg) 0 0 no-repeat;
+	background: url(../images/Hamburger-icon.svg) 0 5px no-repeat;
 	background-size: 30px;
-	margin: 15px 0 20px 25px;
+	margin: 10px 0 20px 20px;
 	padding: 0 0 0 40px;
 	text-decoration: none;
 	color: black;
@@ -291,8 +289,16 @@ h2{
 .footer .title-wrap{
 	margin: 0;
 }
+@media screen and (min-width: 680px){
+	.language-btn{
+		margin-top: 12px;
+	}
+}
 @media screen and (min-width: 992px){
 	.cheap{
 		margin: 29px 0;
+	}
+	.language-btn{
+		margin-top: 15px;
 	}
 }
