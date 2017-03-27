@@ -25,7 +25,7 @@ h1,h2{
 }
 
 .logo{
-	max-width: 320px;
+	max-width: 200px;
 	width: 66%;
 }
 .language-btn{
@@ -91,7 +91,7 @@ h1,h2{
 .menu a{
 	text-decoration: none;
 	color: #e6e6e6;
-	font-size: 28px;
+	font-size: 22px;
 	text-transform: uppercase;
 }
 .menu a:hover{
@@ -128,7 +128,7 @@ h1,h2{
 }
 .assortment-box p{
 	color: black;
-	font-size: 20px;
+	font-size: 18px;
 	line-height: 24px;
 
 }
@@ -294,6 +294,14 @@ h1,h2{
 }
 .footer .title-wrap{
 	margin: 0;
+}
+@media screen and (min-width: 390px){
+	.menu a{
+		font-size: 28px;
+	}
+	.assortment-box p{
+		font-size: 20px;
+	}
 }
 @media screen and (min-width: 680px){
 	.language-btn{
