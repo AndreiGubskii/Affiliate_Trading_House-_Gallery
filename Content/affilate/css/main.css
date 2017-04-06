@@ -8,6 +8,9 @@ section{
 h1,h2{
 	margin-top: 10px;
 }
+.container{
+	max-width: 768px;
+}
 .container-color{
 	background-color: #7f7f7f;
 }
@@ -39,6 +42,7 @@ h1,h2{
 	font-weight: bold;
 	font-size: 21px;
 	text-transform: uppercase;
+	float: right;
 }
 .language-panel-wrap{
 	display: none;
@@ -62,7 +66,7 @@ h1,h2{
 .language-panel{
 	position: absolute;
 	left: 20px;
-	top: -20px;
+	top: 40px;
 	background: #fff;
 	opacity: 0.8;
 	border: 1px solid black;
@@ -74,7 +78,7 @@ h1,h2{
 	text-transform: uppercase;
 	display: block;
 	width: 100%;
-	padding: 10px 23px;
+	padding: 5% 10%;
 	text-decoration: none;
 	color: black;
 	font-weight: bold;
@@ -314,5 +318,8 @@ h1,h2{
 	}
 	.language-btn{
 		margin-top: 15px;
+	}
+	.language-panel{
+		top: 45px;
 	}
 }
